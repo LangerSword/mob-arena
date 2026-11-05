@@ -75,3 +75,14 @@ node --test scripts/token-id.test.mjs   # 90 vectors from the Beasts skill
 - Sepolia is the practice network. The same classes run on mainnet with different
   addresses — change `network` in `src/chain.mjs` and `launch/register.mjs`.
 - Species 1-75 can't be minted by the public; community species start at 10001.
+
+## Story mode
+
+Open `story.html`. Three regions, nine encounters, one Beast that levels with you.
+Progress is saved in `localStorage` — close the tab and pick up where you left off.
+
+Each region escalates: Emberfall (levels 1-20), Glassveil (20-60), Hollowdeep (60-100).
+Every third encounter is a boss and pays triple XP. Level-ups raise health and power,
+and XP requirements ramp (100 for level 2, 200 for level 3, and so on).
+
+Losses pay 15% of the encounter's XP, so a losing run still moves you forward.
