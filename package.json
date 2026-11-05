@@ -1,0 +1,19 @@
+{
+  "name": "mob-arena",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "MOB Arena — a game on Beasts (Musical Onchain Beasts) on Starknet",
+  "scripts": {
+    "art": "node art/prepare.mjs",
+    "simulate": "node launch/register.mjs --dry-run",
+    "register": "node launch/register.mjs",
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "starknet": "9.4.2"
+  },
+  "devDependencies": {
+    "playwright": "^1.64.1"
+  }
+}

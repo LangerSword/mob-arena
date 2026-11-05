@@ -1,0 +1,47 @@
+{
+  "song": {
+    "theme": {
+      "motif_seed": "0x4d6f7373",
+      "tier": 3,
+      "register_band": 1
+    },
+    "score": {
+      "mode_id": 8,
+      "tonic_keynum": 57,
+      "tier": 3,
+      "weakness": 2,
+      "voice_count": 4,
+      "section_count": 3,
+      "stretto_lag": 4,
+      "use_inversion": true,
+      "use_countersubject": true,
+      "ornament_density": 1,
+      "articulation_profile": 0,
+      "velocity_ceiling": 112,
+      "tempo_us": 428571
+    },
+    "treatment": {
+      "rhythm_seed": "0x4d6f7373",
+      "flip_side": false,
+      "development": 0,
+      "direction": 0,
+      "spacing": 1,
+      "trill": true,
+      "prominence": 2,
+      "section_rhythm": false
+    },
+    "arrangement": {
+      "family": 0,
+      "identity": {
+        "name_variant_id": 0,
+        "source_species_id": 10001
+      },
+      "channel_count": 4,
+      "channel_policy": "genesis",
+      "special": "none",
+      "top_lead": true,
+      "balanced": true,
+      "weak_ties": true
+    }
+  }
+}
